@@ -177,7 +177,7 @@ if data is not None:
 def preprocess_data(df):
     df.set_index('date', inplace=True)  # Utiliser la date comme index
     #df['views'] = df['views'].replace(0, np.nan)  # Remplacer les valeurs 0 par NaN
-    df['views'].interpolate(method='linear', inplace=True)  # Interpolation linéaire des NaN
+    df['views'] = df['views'].interpolate(method='linear')  # Interpolation linéaire des NaN
     return df
 
 
