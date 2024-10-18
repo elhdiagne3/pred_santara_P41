@@ -15,7 +15,7 @@ from sklearn.preprocessing import StandardScaler
 
 
 # Charger et afficher le logo
-logo_path = "https://github.com/elhdiagne3/pred_santara_P41/blob/main/image.jpg"
+logo_path = "https://github.com/elhdiagne3/pred_santara_P41/blob/main/image.jpg?raw=true"
 logo = Image.open(logo_path)
 
 # Appliquer le style Seaborn pour l'esthétique des graphiques
