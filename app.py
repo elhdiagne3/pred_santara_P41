@@ -15,7 +15,7 @@ from sklearn.preprocessing import StandardScaler
 
 
 # Charger et afficher le logo
-logo_path = "C:/Users/santara080741/.vscode/Le_0.jpg"
+logo_path = "C:/Users/diagne080894/Facebook/projet_sant/image.jpg"
 logo = Image.open(logo_path)
 
 # Appliquer le style Seaborn pour l'esthétique des graphiques
