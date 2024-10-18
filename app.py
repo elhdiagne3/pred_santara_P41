@@ -15,14 +15,14 @@ from sklearn.preprocessing import StandardScaler
 
 
 # Charger et afficher le logo
-logo_path = "https://raw.githubusercontent.com/elhdiagne3/pred_santara_P41/refs/heads/main/image.jpg"
-logo = Image.open(logo_path)
+#logo_path = "https://raw.githubusercontent.com/elhdiagne3/pred_santara_P41/refs/heads/main/image.jpg"
+#logo = Image.open(logo_path)
 
 # Appliquer le style Seaborn pour l'esthétique des graphiques
 sns.set(style="whitegrid")
 
 # Titre du projet
-st.image(logo, width=300)  # Affiche le logo en haut de la page
+#st.image(logo, width=300)  # Affiche le logo en haut de la page
 st.title("Analyse Prédictive des Séries Temporelles : Comparaison entre ARIMA, SARIMA, et Prophet (ASAP)")
 st.subheader("Projet Libre 41")
 
